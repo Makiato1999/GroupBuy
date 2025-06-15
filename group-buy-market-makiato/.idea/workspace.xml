@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="db84bf9e-f33f-494e-9d52-abe4834e053b" name="Changes" comment="clean up .idea files">
+      <change afterPath="$PROJECT_DIR$/group-buy-market-makiato-domain/src/main/java/com/groupbuy/domain/activity/adapter/repository/IActivityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group-buy-market-makiato-domain/src/main/java/com/groupbuy/domain/activity/model/valobj/GroupBuyActivityDiscountVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group-buy-market-makiato-types/src/main/java/com/groupbuy/types/design/framework/tree/AbstractMultiThreadStrategyRouter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group-buy-market-makiato-domain/src/main/java/com/groupbuy/domain/activity/adapter/repository/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group-buy-market-makiato-domain/src/main/java/com/groupbuy/domain/activity/model/valobj/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group-buy-market-makiato-domain/src/main/java/com/groupbuy/domain/activity/service/trial/AbstractGroupBuyMarketSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/group-buy-market-makiato-domain/src/main/java/com/groupbuy/domain/activity/service/trial/AbstractGroupBuyMarketSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group-buy-market-makiato-domain/src/main/java/com/groupbuy/domain/activity/service/trial/node/MarketNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/group-buy-market-makiato-domain/src/main/java/com/groupbuy/domain/activity/service/trial/node/MarketNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group-buy-market-makiato-domain/src/main/java/com/groupbuy/domain/activity/service/trial/node/RootNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/group-buy-market-makiato-domain/src/main/java/com/groupbuy/domain/activity/service/trial/node/RootNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group-buy-market-makiato-domain/src/main/java/com/groupbuy/domain/activity/service/trial/node/SwitchRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/group-buy-market-makiato-domain/src/main/java/com/groupbuy/domain/activity/service/trial/node/SwitchRoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group-buy-market-makiato-infrastructure/src/main/java/com/groupbuy/infrastructure/dao/po/GroupBuyActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/group-buy-market-makiato-infrastructure/src/main/java/com/groupbuy/infrastructure/dao/po/GroupBuyActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group-buy-market-makiato-infrastructure/src/main/java/com/groupbuy/infrastructure/dao/po/GroupBuyDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/group-buy-market-makiato-infrastructure/src/main/java/com/groupbuy/infrastructure/dao/po/GroupBuyDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group-buy-market-makiato-types/src/main/java/com/groupbuy/types/design/framework/tree/AbstractStrategyRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/group-buy-market-makiato-types/src/main/java/com/groupbuy/types/design/framework/tree/AbstractStrategyRouter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group-buy-market-makiato-types/src/main/java/com/groupbuy/types/design/framework/tree/StrategyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/group-buy-market-makiato-types/src/main/java/com/groupbuy/types/design/framework/tree/StrategyHandler.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2xqOqXmRESQo6BMIufZy4o1jP0W" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.dev-ops/docker-compose-environment.yml.mysql: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.dev-ops/docker-compose-environment.yml.phpmyadmin: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GroupBuyActivityDaoTest.test_.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GroupBuyActivityDaoTest.test_queryGroupBuyActivityList.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GroupBuyDiscountDaoTest.test_queryGroupBuyDiscountList.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.GroupBuyDiscountDaoTest.test_queryGroupBuyDiscountList">
+    <configuration name="GroupBuyActivityDaoTest.test_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="group-buy-market-makiato-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.groupbuy.test.infrastructure.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.groupbuy.test.infrastructure.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.groupbuy.test.infrastructure.dao.GroupBuyActivityDaoTest" />
+      <option name="METHOD_NAME" value="test_" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupBuyActivityDaoTest.test_queryGroupBuyActivityList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="group-buy-market-makiato-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.groupbuy.test.infrastructure.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.groupbuy.test.infrastructure.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.groupbuy.test.infrastructure.dao.GroupBuyActivityDaoTest" />
+      <option name="METHOD_NAME" value="test_queryGroupBuyActivityList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupBuyDiscountDaoTest.test_queryGroupBuyDiscountList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="group-buy-market-makiato-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.groupbuy.test.infrastructure.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.groupbuy.test.infrastructure.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.groupbuy.test.infrastructure.dao.GroupBuyDiscountDaoTest" />
+      <option name="METHOD_NAME" value="test_queryGroupBuyDiscountList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="group-buy-market-makiato-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.groupbuy.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="dev-ops/docker-compose-environment.yml.mysql: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="mysql" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docs/dev-ops/docker-compose-environment.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="dev-ops/docker-compose-environment.yml.phpmyadmin: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="phpmyadmin" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docs/dev-ops/docker-compose-environment.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GroupBuyDiscountDaoTest.test_queryGroupBuyDiscountList" />
+        <item itemvalue="JUnit.GroupBuyActivityDaoTest.test_queryGroupBuyActivityList" />
+        <item itemvalue="Docker.dev-ops/docker-compose-environment.yml.mysql: Compose Deployment" />
+        <item itemvalue="Docker.dev-ops/docker-compose-environment.yml.phpmyadmin: Compose Deployment" />
+        <item itemvalue="JUnit.GroupBuyActivityDaoTest.test_" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-92e50af3" />
+        <option value="jdk-19.0.2-corretto-19.0.2-4caba194b151-be841094" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db84bf9e-f33f-494e-9d52-abe4834e053b" name="Changes" comment="" />
+      <created>1748662329817</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748662329817</updated>
+      <workItem from="1748662331764" duration="19318000" />
+      <workItem from="1749259085325" duration="14463000" />
+      <workItem from="1749450411596" duration="34000" />
+      <workItem from="1749450449108" duration="4903000" />
+    </task>
+    <task id="LOCAL-00001" summary="GroupBuy Market project started!">
+      <option name="closed" value="true" />
+      <created>1748662425319</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748662425319</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initialized database and config">
+      <option name="closed" value="true" />
+      <created>1748814055018</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748814055018</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2-2">
+      <option name="closed" value="true" />
+      <created>1749447782637</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749447782637</updated>
+    </task>
+    <task id="LOCAL-00004" summary="clean up .idea files">
+      <option name="closed" value="true" />
+      <created>1749450393256</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1749450393256</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="GroupBuy Market project started!" />
+    <MESSAGE value="Initialized database and config" />
+    <MESSAGE value="2-2" />
+    <MESSAGE value="clean up .idea files" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean up .idea files" />
+  </component>
+</project>

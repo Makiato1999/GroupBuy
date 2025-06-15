@@ -14,15 +14,15 @@ import javax.annotation.Resource;
 @Service
 public class SwitchRoot extends AbstractGroupBuyMarketSupport<MarketProductEntity, DefaultActivityStrategyFactory.DynamicContext, TrialBalanceEntity> {
     @Resource
-    private SwitchRoot switchNode;
+    private MarketNode marketNode;
 
     @Override
     public TrialBalanceEntity apply(MarketProductEntity requestParameter, DefaultActivityStrategyFactory.DynamicContext dynamicContext) throws Exception {
-        return null;
+        return router(requestParameter, dynamicContext);
     }
 
     @Override
     public StrategyHandler<MarketProductEntity, DefaultActivityStrategyFactory.DynamicContext, TrialBalanceEntity> get(MarketProductEntity requestParameter, DefaultActivityStrategyFactory.DynamicContext dynamicContext) {
-        return switchNode;
+        return marketNode;
     }
 }

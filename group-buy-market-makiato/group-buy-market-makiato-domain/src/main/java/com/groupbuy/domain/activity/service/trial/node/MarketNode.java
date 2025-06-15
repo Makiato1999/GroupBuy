@@ -8,11 +8,21 @@ import com.groupbuy.types.design.framework.tree.StrategyHandler;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import java.util.concurrent.ThreadPoolExecutor;
+
 @Slf4j
 @Service
 public class MarketNode extends AbstractGroupBuyMarketSupport<MarketProductEntity, DefaultActivityStrategyFactory.DynamicContext, TrialBalanceEntity> {
+
+    private ThreadPoolExecutor threadPoolExecutor;
+
     @Override
-    public TrialBalanceEntity apply(MarketProductEntity requestParameter, DefaultActivityStrategyFactory.DynamicContext dynamicContext) throws Exception {
+    protected void multiThread(MarketProductEntity requestParameter, DefaultActivityStrategyFactory.DynamicContext dynamicContext) {
+        super.multiThread(requestParameter, dynamicContext);
+    }
+
+    @Override
+    public TrialBalanceEntity doApply(MarketProductEntity requestParameter, DefaultActivityStrategyFactory.DynamicContext dynamicContext) throws Exception {
         return null;
     }
 

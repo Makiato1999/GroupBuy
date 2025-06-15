@@ -5,7 +5,10 @@ import com.groupbuy.domain.activity.model.entity.TrialBalanceEntity;
 import com.groupbuy.domain.activity.service.trial.AbstractGroupBuyMarketSupport;
 import com.groupbuy.domain.activity.service.trial.factory.DefaultActivityStrategyFactory;
 import com.groupbuy.types.design.framework.tree.StrategyHandler;
+import com.groupbuy.types.enums.ResponseCode;
+import com.groupbuy.types.exception.AppException;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -17,8 +20,14 @@ public class RootNode extends AbstractGroupBuyMarketSupport<MarketProductEntity,
     private SwitchRoot switchRoot;
 
     @Override
-    public TrialBalanceEntity apply(MarketProductEntity requestParameter, DefaultActivityStrategyFactory.DynamicContext dynamicContext) throws Exception {
-        return null;
+    public TrialBalanceEntity doApply(MarketProductEntity requestParameter, DefaultActivityStrategyFactory.DynamicContext dynamicContext) throws Exception {
+        if (StringUtils.isBlank(requestParameter.getUserId()) ||
+                StringUtils.isBlank(requestParameter.getGoodsId()) ||
+                StringUtils.isBlank(requestParameter.getSource()) ||
+                StringUtils.isBlank(requestParameter.getChannel())) {
+            throw new AppException(ResponseCode.ILLEGAL_PARAMETER.getCode(), ResponseCode.ILLEGAL_PARAMETER.getInfo());
+        }
+        return router(requestParameter, dynamicContext);
     }
 
     @Override
